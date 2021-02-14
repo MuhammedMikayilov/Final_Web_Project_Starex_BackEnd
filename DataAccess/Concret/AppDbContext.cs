@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DataAccess.Concret
 {
-    public class AppDbContext: DbContext
+    public class AppDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -14,6 +14,7 @@ namespace DataAccess.Concret
             optionsBuilder.UseSqlServer(@"Server=;Database=Starex;Trusted_Connection=True;MultipleActiveResultSets=True");
         }
 
+        public DbSet<About> Abouts { get; set; }
         public DbSet<Service> Services { get; set; }
     }
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj": {}
+    "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj": {
+    "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj",
+        "projectUniqueName": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj",
         "projectName": "Buisness",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Buisness\\obj\\",
+        "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Buisness\\Buisness.csproj",
+        "packagesPath": "C:\\Users\\maham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Buisness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj"
+              "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj"
               }
             }
           }
@@ -68,20 +65,17 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
+    "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\obj\\",
+        "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\maham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,20 +125,17 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\maham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,11 +149,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj"
+              "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj"
+              "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj"
               }
             }
           }
@@ -205,20 +196,17 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
+    "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\maham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,8 +220,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj"
+              "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\maham\\OneDrive\\Desktop\\Final Starex Project\\Final_Web_Project_Starex_BackEnd\\Core\\Core.csproj"
               }
             }
           }
@@ -247,6 +235,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

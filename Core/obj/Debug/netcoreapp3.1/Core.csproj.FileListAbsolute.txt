@@ -16,3 +16,12 @@ C:\Users\HP\Desktop\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.
 C:\Users\HP\Desktop\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\HP\Desktop\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.pdb
