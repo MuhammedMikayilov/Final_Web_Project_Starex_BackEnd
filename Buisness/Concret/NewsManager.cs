@@ -17,12 +17,12 @@ namespace Buisness.Concret
         }
         public List<News> GetAll()
         {
-            return _context.GetAll();
+            return _context.GetAll(n=> !n.IsDeleted);
         }       
 
         public News GetWithId(int id)
         {
-            return _context.Get(n=>n.Id == id);
+            return _context.Get(n=>n.Id == id && !n.IsDeleted);
         }
         public void Add(News data)
         {

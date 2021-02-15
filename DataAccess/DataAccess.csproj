@@ -5,14 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20210215051252_Test.cs" />
-    <Compile Remove="Migrations\20210215051252_Test.Designer.cs" />
-    <Compile Remove="Migrations\20210215051446_Test.cs" />
-    <Compile Remove="Migrations\20210215051446_Test.Designer.cs" />
-    <Compile Remove="Migrations\20210215052025_Test2.cs" />
-    <Compile Remove="Migrations\20210215052025_Test2.Designer.cs" />
-    <Compile Remove="Migrations\20210215062521_Test2.cs" />
-    <Compile Remove="Migrations\20210215062521_Test2.Designer.cs" />
+    <Compile Remove="Migrations\20210215134714_Test.cs" />
+    <Compile Remove="Migrations\20210215134714_Test.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +21,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\Entity\Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

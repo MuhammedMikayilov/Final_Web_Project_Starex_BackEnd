@@ -1,5 +1,6 @@
 ﻿using Entity.Entities;
 using Entity.Entities.Newss;
+using Entity.Entities.Questions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,9 @@ namespace DataAccess.Concret
         public DbSet<About> Abouts { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<QuestionNavbar> QuestionNavbars { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

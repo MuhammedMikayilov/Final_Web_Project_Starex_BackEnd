@@ -31,6 +31,8 @@ namespace Starex
             services.AddScoped<INewsService, NewsManager>();
             services.AddScoped<INewsDetailDal, EFNewsDetailDal>();
             services.AddScoped<INewsDetailService, NewsDetailManager>();
+            services.AddScoped<IQuestionNavbarDal, EFQuestionNavbarDal>();
+            services.AddScoped<IQuestionNavbarService, QuestionNavbarManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
