@@ -1,6 +1,6 @@
 ﻿using Buisness.Abstract;
 using DataAccess.Abstract;
-using Entity.Entities.News;
+using Entity.Entities.Newss;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,7 +18,7 @@ namespace Buisness.Concret
         public List<News> GetAll()
         {
             return _context.GetAll();
-        }
+        }       
 
         public News GetWithId(int id)
         {

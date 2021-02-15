@@ -1,14 +1,12 @@
+using Buisness.Abstract;
+using Buisness.Concret;
+using DataAccess.Abstract;
+using DataAccess.Concret;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Starex
 {
@@ -25,6 +23,14 @@ namespace Starex
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IAboutDAL, EFAboutDal>();
+            services.AddScoped<IAboutService, AboutManager>();
+            services.AddScoped<IServiceDal, EFServiceDal>();
+            services.AddScoped<IServiceService, ServiceManager>();
+            services.AddScoped<INewsDal, EfNewsDal>();
+            services.AddScoped<INewsService, NewsManager>();
+            services.AddScoped<INewsDetailDal, EFNewsDetailDal>();
+            services.AddScoped<INewsDetailService, NewsDetailManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

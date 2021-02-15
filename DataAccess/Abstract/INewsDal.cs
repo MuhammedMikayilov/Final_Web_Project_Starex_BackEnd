@@ -1,5 +1,5 @@
 ﻿using Core.Repository;
-using Entity.Entities.News;
+using Entity.Entities.Newss;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;

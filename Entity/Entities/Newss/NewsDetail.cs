@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Entity.Entities.News
+namespace Entity.Entities.Newss
 {
     public class NewsDetail:IEntity
     {

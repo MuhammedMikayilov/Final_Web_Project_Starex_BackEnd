@@ -1,10 +1,7 @@
 ﻿using Buisness.Abstract;
 using DataAccess.Abstract;
 using Entity.Entities;
-using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Buisness.Concret
 {

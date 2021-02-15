@@ -1,6 +1,6 @@
 ﻿using Core.Repository.EFRepository;
 using DataAccess.Abstract;
-using Entity.Entities.News;
+using Entity.Entities.Newss;
 using System;
 using System.Collections.Generic;
 using System.Text;

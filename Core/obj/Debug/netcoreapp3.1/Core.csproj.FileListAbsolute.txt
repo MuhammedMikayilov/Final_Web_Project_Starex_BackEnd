@@ -25,3 +25,6 @@ C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_Ba
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache

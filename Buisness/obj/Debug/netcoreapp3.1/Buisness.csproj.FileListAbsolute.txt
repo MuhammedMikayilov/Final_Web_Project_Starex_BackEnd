@@ -46,3 +46,6 @@ C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_Ba
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\obj\Debug\netcoreapp3.1\Buisness.csproj.CopyComplete
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\obj\Debug\netcoreapp3.1\Buisness.dll
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\obj\Debug\netcoreapp3.1\Buisness.pdb
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\bin\Debug\netcoreapp3.1\Buisness.runtimeconfig.json
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\bin\Debug\netcoreapp3.1\Buisness.runtimeconfig.dev.json
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Buisness\obj\Debug\netcoreapp3.1\Buisness.genruntimeconfig.cache

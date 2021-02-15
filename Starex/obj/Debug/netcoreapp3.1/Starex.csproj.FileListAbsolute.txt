@@ -127,3 +127,4 @@ C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_Ba
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Starex\obj\Debug\netcoreapp3.1\Starex.genruntimeconfig.cache
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Starex\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Starex\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\maham\OneDrive\Desktop\Final Starex Project\Final_Web_Project_Starex_BackEnd\Starex\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
