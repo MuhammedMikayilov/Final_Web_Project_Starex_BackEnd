@@ -35,6 +35,8 @@ namespace Starex
             services.AddScoped<IQuestionService, QuestionManager>();
             services.AddScoped<IIntroDal, EFIntroDal>();
             services.AddScoped<IIntroService, IntroManager>();
+            services.AddScoped<IHowWorksDal, EFHowWorksDal>();
+            services.AddScoped<IHowWorksService, HowWorksService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

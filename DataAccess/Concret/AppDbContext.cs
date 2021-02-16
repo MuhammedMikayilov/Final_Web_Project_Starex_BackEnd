@@ -22,6 +22,7 @@ namespace DataAccess.Concret
         public DbSet<Question> Questions { get; set; }
         public DbSet<QuestionNavbar> QuestionNavbars { get; set; }
         public DbSet<Intro> Intors { get; set; }
+        public DbSet<HowWorks> HowWorks { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
