@@ -7,6 +7,12 @@
   <ItemGroup>
     <Compile Remove="Migrations\20210215134714_Test.cs" />
     <Compile Remove="Migrations\20210215134714_Test.Designer.cs" />
+    <Compile Remove="Migrations\20210215200507_Test.cs" />
+    <Compile Remove="Migrations\20210215200507_Test.Designer.cs" />
+    <Compile Remove="Migrations\20210215201221_Test.cs" />
+    <Compile Remove="Migrations\20210215201221_Test.Designer.cs" />
+    <Compile Remove="Migrations\20210215203847_First.cs" />
+    <Compile Remove="Migrations\20210215203847_First.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,10 +27,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\Entity\Entity.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

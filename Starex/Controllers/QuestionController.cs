@@ -15,25 +15,25 @@ namespace Starex.Controllers
     [ApiController]
     public class QuestionController : ControllerBase
     {
-        private readonly IQuestionService _context;
+        private readonly IQuestionService _questionService;
 
-        public QuestionController(IQuestionService context)
+        public QuestionController(IQuestionService questionService)
         {
-            _context = context;
+            _questionService = questionService;
         }
 
         // GET: api/<QuestionController>
         [HttpGet]
         public ActionResult<List<Question>> Get()
         {
-            return _context.GetAll();
+            return _questionService.GetAll();
         }
 
         // GET api/<QuestionController>/5
         [HttpGet("{id}")]
         public ActionResult<Question> Get(int id)
         {
-            return _context.GetWithId(id);
+            return _questionService.GetWithId(id);
         }
 
         // POST api/<QuestionController>
@@ -43,7 +43,7 @@ namespace Starex.Controllers
             try
             {
                 if (!ModelState.IsValid) return BadRequest();
-                _context.Add(question);
+                _questionService.Add(question);
                 return Ok();
             }
             catch (Exception ex)
@@ -58,10 +58,10 @@ namespace Starex.Controllers
         {
             try
             {
-                Question dbQuestion = _context.GetWithId(id);
+                Question dbQuestion = _questionService.GetWithId(id);
                 if (dbQuestion == null) return BadRequest();
 
-                _context.Update(dbQuestion);
+                _questionService.Update(dbQuestion);
                 return Ok();
             }
             catch (Exception ex)
@@ -76,7 +76,7 @@ namespace Starex.Controllers
         {
             try
             {
-                _context.Delete(id);
+                _questionService.Delete(id);
                 return Ok();
             }
             catch (Exception ex)

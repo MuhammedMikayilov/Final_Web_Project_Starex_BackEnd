@@ -7,36 +7,36 @@ namespace Buisness.Concret
 {
     public class AboutManager :IAboutService
     {
-        private readonly IAboutDAL _context;
+        private readonly IAboutDAL _aboutDAL;
 
-        public AboutManager(IAboutDAL context)
+        public AboutManager(IAboutDAL aboutDAL)
         {
-            _context = context;
+            _aboutDAL = aboutDAL;
         }
 
         public List<About> GetAll()
         {
-            return _context.GetAll();
+            return _aboutDAL.GetAll();
         }
 
         public About GetWithId(int id)
         {
-            return _context.Get(c => c.Id == id);
+            return _aboutDAL.Get(c => c.Id == id);
         }
 
         public void Add(About data)
         {
-            _context.Add(data);
+            _aboutDAL.Add(data);
         }
 
         public void Delete(int id)
         {
-            _context.Delete(new About { Id = id });
+            _aboutDAL.Delete(new About { Id = id });
         }
 
         public void Update(About data)
         {
-            _context.Update(data);
+            _aboutDAL.Update(data);
         }
     }
 }

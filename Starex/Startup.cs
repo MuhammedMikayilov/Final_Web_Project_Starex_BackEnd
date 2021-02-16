@@ -25,14 +25,16 @@ namespace Starex
             services.AddControllers();
             services.AddScoped<IAboutDAL, EFAboutDal>();
             services.AddScoped<IAboutService, AboutManager>();
-            services.AddScoped<IServiceDal, EFServiceDal>();
-            services.AddScoped<IServiceService, ServiceManager>();
             services.AddScoped<INewsDal, EfNewsDal>();
             services.AddScoped<INewsService, NewsManager>();
             services.AddScoped<INewsDetailDal, EFNewsDetailDal>();
             services.AddScoped<INewsDetailService, NewsDetailManager>();
             services.AddScoped<IQuestionNavbarDal, EFQuestionNavbarDal>();
             services.AddScoped<IQuestionNavbarService, QuestionNavbarManager>();
+            services.AddScoped<IQuestionDal, EFQuestionDal>();
+            services.AddScoped<IQuestionService, QuestionManager>();
+            services.AddScoped<IIntroDal, EFIntroDal>();
+            services.AddScoped<IIntroService, IntroManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

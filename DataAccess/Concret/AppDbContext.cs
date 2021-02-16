@@ -1,4 +1,5 @@
 ﻿using Entity.Entities;
+using Entity.Entities.HomePages;
 using Entity.Entities.Newss;
 using Entity.Entities.Questions;
 using Microsoft.EntityFrameworkCore;
@@ -18,10 +19,9 @@ namespace DataAccess.Concret
 
         public DbSet<About> Abouts { get; set; }
         public DbSet<News> News { get; set; }
-        public DbSet<Service> Services { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<QuestionNavbar> QuestionNavbars { get; set; }
-
+        public DbSet<Intro> Intors { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

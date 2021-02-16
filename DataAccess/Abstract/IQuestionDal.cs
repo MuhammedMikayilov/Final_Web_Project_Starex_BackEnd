@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Core.Repository;
+using Entity.Entities.Questions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DataAccess.Abstract
 {
-    interface IQuestionDal
+    public interface IQuestionDal:IEntityRepository<Question>
     {
     }
 }
