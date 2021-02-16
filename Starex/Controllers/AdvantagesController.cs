@@ -13,23 +13,24 @@ namespace Starex.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HowWorksController : ControllerBase
+    public class AdvantagesController : ControllerBase
     {
-        private readonly IHowWorksService _howWorks;
 
-        public HowWorksController(IHowWorksService howWorks)
+        private readonly IAdvantagesService _advantagesService;
+
+        public AdvantagesController(IAdvantagesService advantagesService)
         {
-            _howWorks = howWorks;
+            _advantagesService = advantagesService;
         }
 
-        // GET: api/<HowWorksController>
+        // GET: api/<AdvantagesController>
         [HttpGet]
-        public ActionResult<List<HowWorks>> Get()
+        public ActionResult<List<Advantages>> Get()
         {
             try
             {
-                List<HowWorks> howWorks = _howWorks.GetAll();
-                return Ok(howWorks);
+                List<Advantages> advantages = _advantagesService.GetAll();
+                return Ok(advantages);
             }
             catch (Exception ex)
             {
@@ -38,15 +39,15 @@ namespace Starex.Controllers
             }
         }
 
-        // GET api/<HowWorksController>/5
+        // GET api/<AdvantagesController>/5
         [HttpGet("{id}")]
-        public ActionResult<HowWorks> Get(int id)
+        public ActionResult<Advantages> Get(int id)
         {
             try
             {
-                HowWorks howWorks = _howWorks.GetWithId(id);
-                if (howWorks == null) return StatusCode(StatusCodes.Status404NotFound);
-                return Ok(howWorks);
+                Advantages advantages = _advantagesService.GetWithId(id);
+                if (advantages == null) return StatusCode(StatusCodes.Status404NotFound);
+                return Ok(advantages);
             }
             catch (Exception ex)
             {
@@ -55,14 +56,14 @@ namespace Starex.Controllers
             }
         }
 
-        // POST api/<HowWorksController>
+        // POST api/<AdvantagesController>
         [HttpPost]
-        public ActionResult Post([FromBody] HowWorks howWorks)
+        public ActionResult Post([FromBody] Advantages advantages)
         {
             try
             {
                 if (!ModelState.IsValid) return BadRequest();
-                _howWorks.Add(howWorks);
+                _advantagesService.Add(advantages);
                 return Ok();
             }
             catch (Exception e)
@@ -71,20 +72,20 @@ namespace Starex.Controllers
             }
         }
 
-        // PUT api/<HowWorksController>/5
+        // PUT api/<AdvantagesController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] HowWorks howWorks)
+        public ActionResult Put(int id, [FromBody] Advantages advantages)
         {
             try
             {
-                HowWorks dbWorks = _howWorks.GetWithId(id);
-                if (dbWorks == null) return BadRequest();
+                Advantages dbAdvatages = _advantagesService.GetWithId(id);
+                if (dbAdvatages == null) return BadRequest();
 
-                dbWorks.Icon = howWorks.Icon;
-                dbWorks.Title = howWorks.Title;
-                dbWorks.Description = howWorks.Description;
+                dbAdvatages.Icon = advantages.Icon;
+                dbAdvatages.Title = advantages.Title;
+                dbAdvatages.Description = advantages.Description;
 
-                _howWorks.Update(dbWorks);
+                _advantagesService.Update(dbAdvatages);
                 return Ok();
 
             }
@@ -94,13 +95,13 @@ namespace Starex.Controllers
             }
         }
 
-        // DELETE api/<HowWorksController>/5
+        // DELETE api/<AdvantagesController>/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             try
             {
-                _howWorks.Delete(id);
+                _advantagesService.Delete(id);
                 return Ok();
             }
             catch (Exception e)
